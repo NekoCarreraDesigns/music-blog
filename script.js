@@ -6,7 +6,7 @@ let infoEl = document.createElement("div");
 let pEl = document.createElement("p");
 
 h1El.textContent = "You've Never Heard of Them";
-h2El.textContent = "Music blog for the music snobs of Denver";
+h2El.textContent = "Music blog for music snobs";
 pEl.textContent =
   "Animal Collective makes some weird music, that on so many levels twists and turn. they sound like what I'm sure was what Brian Wilson's LSD laden mind, thoughts sounded like";
 
@@ -17,5 +17,8 @@ infoEl.appendChild(pEl);
 
 h1El.setAttribute(
   "style",
-  "text-align: center; text-decoration: underline; text-decoration-color: blue;"
+  "text-align: center; text-decoration: underline; font-size: 40px; text-decoration-color: rgb(123, 255, 255); font-family: cursive; color: rgb(123, 200, 200)"
 );
+body.setAttribute("style", "background-color: rgb(150, 140, 200);");
+h2El.setAttribute("style", "text-align: center; color: rgb(123, 200, 200);");
+pEl.setAttribute("style", "font-size: 24px;");
