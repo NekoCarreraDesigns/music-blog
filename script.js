@@ -25,3 +25,4 @@ h1El.setAttribute(
 body.setAttribute("style", "background-color: rgb(150, 140, 200);");
 h2El.setAttribute("style", "text-align: center; color: rgb(123, 200, 200);");
 pEl.setAttribute("style", "font-size: 24px;");
+infoH1El.setAttribute("style", "color: rgb(123, 223, 23);");
