@@ -47,10 +47,12 @@ h1El.setAttribute(
 );
 body.setAttribute("style", "background-color: rgb(150, 140, 200);");
 h2El.setAttribute("style", "text-align: center; color: rgb(123, 200, 200);");
-pEl.setAttribute("style", "font-size: 24px;");
-infoH1El.setAttribute("style", "color: rgb(123, 223, 23);");
-infoH1El2.setAttribute("style", "color: rgb(123, 223, 23);");
-pEl2.setAttribute("style", "font-size: 24px;");
+pEl.setAttribute("style", "font-size: 24px; font-family: arial;");
+infoH1El.setAttribute("style", "color: rgb(191, 223, 23);");
+infoH1El2.setAttribute("style", "color: rgb(191, 223, 23);");
+infoH1El3.setAttribute("style", "color: rgb(191, 223, 23);");
+pEl2.setAttribute("style", "font-size: 24px; font-family: arial;");
+pElement3.setAttribute("style", "font-size: 24px; font-family: arial;");
 imgEl.setAttribute(
   "src",
   "https://media.pitchfork.com/photos/616f95da483dc8d5efe6a29c/2:1/w_2560%2Cc_limit/AC_Setup2Landscape1V1%2520copy.jpg"
