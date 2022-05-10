@@ -6,6 +6,7 @@ let infoEl = document.createElement("div");
 let infoEl2 = document.createElement("div");
 let infoH1El = document.createElement("h1");
 let infoH1El2 = document.createElement("h1");
+let imgEl = document.createElement("img");
 let pEl = document.createElement("p");
 let pEl2 = document.createElement("p");
 
@@ -23,6 +24,7 @@ body.appendChild(h1El);
 body.appendChild(h2El);
 body.appendChild(infoEl);
 infoEl.appendChild(infoH1El);
+infoEl.appendChild(imgEl);
 infoEl.appendChild(pEl);
 body.appendChild(infoEl2);
 infoEl2.appendChild(infoH1El2);
@@ -38,3 +40,8 @@ pEl.setAttribute("style", "font-size: 24px;");
 infoH1El.setAttribute("style", "color: rgb(123, 223, 23);");
 infoH1El2.setAttribute("style", "color: rgb(123, 223, 23);");
 pEl2.setAttribute("style", "font-size: 24px;");
+imgEl.setAttribute(
+  "src",
+  "https://media.pitchfork.com/photos/616f95da483dc8d5efe6a29c/2:1/w_2560%2Cc_limit/AC_Setup2Landscape1V1%2520copy.jpg"
+);
+imgEl.setAttribute("style", "width: 500px;");
