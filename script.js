@@ -4,12 +4,15 @@ let h1El = document.createElement("h1");
 let h2El = document.createElement("h2");
 let infoEl = document.createElement("div");
 let infoEl2 = document.createElement("div");
+let infoEl3 = document.createElement("div");
 let infoH1El = document.createElement("h1");
 let infoH1El2 = document.createElement("h1");
+let infoH1El3 = document.createElement("h1");
 let imgEl = document.createElement("img");
 let imgEl2 = document.createElement("img");
 let pEl = document.createElement("p");
 let pEl2 = document.createElement("p");
+let pElement3 = document.createElement("p");
 
 h1El.textContent = "You've Never Heard of Them";
 h2El.textContent = "Music blog for music snobs";
@@ -21,6 +24,9 @@ infoH1El2.textContent = "The New Pornographers";
 pEl2.textContent =
   "Indie pop that has no shortage of melodies, led by A.C. Newman who is the chief songwriter, It is a super group of Canadian indie musicians. Notably Neko Case, Dan Bejar, and keyboardist Kristen Dahle. Alt-country legend Case uses her voice in a more pop style, which is both pleasing, and melodic. Destroyer' Dan Bejar sings a few tracks and writes some songs as well. The band is very tight musically and playful at the same time. Without taking from their influences too much. Having been playing music since 2000 on their first long player Mass Romantic which features one of my favorite songs. Letter From an Occupant, which features lead vocals from Neko Case, is an indie pop classic. The guitars are pure power pop, and the production is very slick, without sounding overproduced. Eight albums in and they area all incredibly consistent, sort of the AC/DC of indie pop. Why mess with a good thing, some folks would say that is bland and uncreative, I say if it works then don't mess with it, bands will often try to experiment with their sound, and it goes horribly wrong, they lose fans, and receive negative criticism that ends up doing more harm than good, then end up going back to what they were doing. Although I did find the addition of synthesizers on Brill Bruisers to be a nice touch.";
 
+infoH1El3.textContent = "Modern Hip-Hop Is Hot Garbage";
+pElement3.textContent = "What the hell is this auto tuned mumbling noise!? ";
+
 body.appendChild(h1El);
 body.appendChild(h2El);
 body.appendChild(infoEl);
@@ -31,6 +37,9 @@ body.appendChild(infoEl2);
 infoEl2.appendChild(infoH1El2);
 infoEl2.appendChild(imgEl2);
 infoEl2.appendChild(pEl2);
+body.appendChild(infoEl3);
+infoEl3.appendChild(infoH1El3);
+infoEl3.appendChild(pElement3);
 
 h1El.setAttribute(
   "style",
