@@ -7,6 +7,7 @@ let infoEl2 = document.createElement("div");
 let infoH1El = document.createElement("h1");
 let infoH1El2 = document.createElement("h1");
 let imgEl = document.createElement("img");
+let imgEl2 = document.createElement("img");
 let pEl = document.createElement("p");
 let pEl2 = document.createElement("p");
 
@@ -28,6 +29,7 @@ infoEl.appendChild(imgEl);
 infoEl.appendChild(pEl);
 body.appendChild(infoEl2);
 infoEl2.appendChild(infoH1El2);
+infoEl2.appendChild(imgEl2);
 infoEl2.appendChild(pEl2);
 
 h1El.setAttribute(
@@ -45,3 +47,8 @@ imgEl.setAttribute(
   "https://media.pitchfork.com/photos/616f95da483dc8d5efe6a29c/2:1/w_2560%2Cc_limit/AC_Setup2Landscape1V1%2520copy.jpg"
 );
 imgEl.setAttribute("style", "width: 500px;");
+imgEl2.setAttribute(
+  "src",
+  "https://www.mlive.com/resizer/QHNScbB9pkvTTRt8T9FYQIx2CmQ=/1280x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/image.mlive.com/home/mlive-media/width2048/img/grpress/entertainment_impact/photo/thenewpornographers-sl062509jpeg-1919c6d7e4068080.jpeg"
+);
+imgEl2.setAttribute("style", "width: 500px;");
