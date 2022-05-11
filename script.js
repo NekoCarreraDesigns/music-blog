@@ -1,5 +1,8 @@
+// declaring the body variable for the document parent node
 let body = document.body;
-
+// variables to create page elements
+let aEl = document.createElement("a");
+let aEl2 = document.createElement("a");
 let h1El = document.createElement("h1");
 let h2El = document.createElement("h2");
 let infoEl = document.createElement("div");
@@ -13,12 +16,14 @@ let imgEl2 = document.createElement("img");
 let pEl = document.createElement("p");
 let pEl2 = document.createElement("p");
 let pElement3 = document.createElement("p");
-
+// text content for the page
 h1El.textContent = "You've Never Heard of Them";
 h2El.textContent = "Music blog for music snobs";
 infoH1El.textContent = "Animal Collective";
 pEl.textContent =
   "Animal Collective makes some weird music, that on so many levels twists and turns. they sound like what I'm sure was what Brian Wilson's LSD laden thoughts sounded like, each song has Layers upon layers of textures and interweaving melodies, often they compliment or collide with one another, the vocals sometimes harmonious, sometimes screamed, and reminiscent of the aforementioned Beach Boy. A comparison they don't care for. In the early days of the group's music the songs were psychedelic landscapes, that transported the listener to the place where they had intended, in the early era of finger picked guitars, vocal loops, and ambient textures. After this period they introduced more electronic elements such as keyboards, and samples. this led to the more layered sound of the band. The earlier sounds of Animal Collective were at times a bit noisy, and inaccessible for the casual listener, the later albums were more immediate, the albums Centipede Hz, Painting With, and the most recent release Time Skiffs are still true to the layered textures of the past, the vocals are cleaner, and each song takes a short flight, compared to the longer compositions of the past. Avey Tare, and Panda Bear trade off vocal harmonies with point/and counterpoint delivery, swirling in a loop of exuberant joy on tracks like Golden Gal, FloriDada, Dragon Slayer. I've always felt transported when listening to their music. My first introduction to animal collective was their seventh album Strawberry Jam, it took me a few listens to get past the noise elements to find the layered melodies and surrealist lyrics that were all over the record, then the more psychedelic Merriweather Post Pavilion made me a believer. Deciding to jump into the back catalog was both good and bad. There are some gems for sure, and some weirdness, it's all part of the progression the earlier albums that I really enjoyed were Feels, and Sung Tongs. Sung Tongs was the band hitting it's creative stride, while Feels expanded on what Sung Tongs had set in motion.";
+
+aEl.textContent = "Give them a listen";
 
 infoH1El2.textContent = "The New Pornographers";
 pEl2.textContent =
@@ -27,12 +32,14 @@ pEl2.textContent =
 infoH1El3.textContent = "Modern Hip-Hop Is Hot Garbage";
 pElement3.textContent = "What the hell is this auto tuned mumbling noise!? ";
 
+// adding child elements to the parent node
 body.appendChild(h1El);
 body.appendChild(h2El);
 body.appendChild(infoEl);
 infoEl.appendChild(infoH1El);
 infoEl.appendChild(imgEl);
 infoEl.appendChild(pEl);
+infoEl.appendChild(aEl);
 body.appendChild(infoEl2);
 infoEl2.appendChild(infoH1El2);
 infoEl2.appendChild(imgEl2);
@@ -40,7 +47,7 @@ infoEl2.appendChild(pEl2);
 body.appendChild(infoEl3);
 infoEl3.appendChild(infoH1El3);
 infoEl3.appendChild(pElement3);
-
+// setting the style for the elements on the page
 h1El.setAttribute(
   "style",
   "text-align: center; text-decoration: underline; font-size: 40px; text-decoration-color: rgb(123, 255, 255); font-family: cursive; color: rgb(123, 200, 200)"
@@ -63,3 +70,5 @@ imgEl2.setAttribute(
   "https://www.mlive.com/resizer/QHNScbB9pkvTTRt8T9FYQIx2CmQ=/1280x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/image.mlive.com/home/mlive-media/width2048/img/grpress/entertainment_impact/photo/thenewpornographers-sl062509jpeg-1919c6d7e4068080.jpeg"
 );
 imgEl2.setAttribute("style", "width: 500px;");
+aEl.setAttribute("href", "https://www.spotify.com");
+aEl.setAttribute("style", "color: rgb(200, 12, 200); font-size: 24px;");
