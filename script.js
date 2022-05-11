@@ -77,3 +77,5 @@ imgEl2.setAttribute("style", "width: 500px;");
 // styling for the links
 aEl.setAttribute("href", "https://www.spotify.com");
 aEl.setAttribute("style", "color: rgb(200, 12, 200); font-size: 24px;");
+aEl2.setAttribute("href", "https://www.spotify.com");
+aEl2.setAttribute("style", "color: rgb(200, 12, 200); font-size: 24px;");
