@@ -60,6 +60,7 @@ infoH1El2.setAttribute("style", "color: rgb(191, 223, 23);");
 infoH1El3.setAttribute("style", "color: rgb(191, 223, 23);");
 pEl2.setAttribute("style", "font-size: 24px; font-family: arial;");
 pElement3.setAttribute("style", "font-size: 24px; font-family: arial;");
+// styling for the images on the page
 imgEl.setAttribute(
   "src",
   "https://media.pitchfork.com/photos/616f95da483dc8d5efe6a29c/2:1/w_2560%2Cc_limit/AC_Setup2Landscape1V1%2520copy.jpg"
@@ -70,5 +71,6 @@ imgEl2.setAttribute(
   "https://www.mlive.com/resizer/QHNScbB9pkvTTRt8T9FYQIx2CmQ=/1280x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/image.mlive.com/home/mlive-media/width2048/img/grpress/entertainment_impact/photo/thenewpornographers-sl062509jpeg-1919c6d7e4068080.jpeg"
 );
 imgEl2.setAttribute("style", "width: 500px;");
+// styling for the links
 aEl.setAttribute("href", "https://www.spotify.com");
 aEl.setAttribute("style", "color: rgb(200, 12, 200); font-size: 24px;");
