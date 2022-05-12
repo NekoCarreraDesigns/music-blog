@@ -8,11 +8,25 @@ let h2El = document.createElement("h2");
 let infoEl = document.createElement("div");
 let infoEl2 = document.createElement("div");
 let infoEl3 = document.createElement("div");
+let rotationElement = document.createElement("div");
+let rotationElementDiv = document.createElement("div");
 let infoH1El = document.createElement("h1");
 let infoH1El2 = document.createElement("h1");
 let infoH1El3 = document.createElement("h1");
+let rotationH1Element = document.createElement("h1");
+let rotationH1ElementOne = document.createElement("h1");
+let rotationH1ElementTwo = document.createElement("h1");
+let rotationH1ElementThree = document.createElement("h1");
+let rotationH1ElementFour = document.createElement("h1");
+let rotationH1ElementFive = document.createElement("h1");
 let imgEl = document.createElement("img");
 let imgEl2 = document.createElement("img");
+let rotationImgElement = document.createElement("img");
+let rotationImgElementOne = document.createElement("img");
+let rotationImgElementTwo = document.createElement("img");
+let rotationImgElementThree = document.createElement("img");
+let rotationImgElementFour = document.createElement("img");
+let rotationImgElementFive = document.createElement("img");
 let pEl = document.createElement("p");
 let pEl2 = document.createElement("p");
 let pElement3 = document.createElement("p");
@@ -24,6 +38,7 @@ pEl.textContent =
   "Animal Collective makes some weird music, that on so many levels twists and turns. they sound like what I'm sure was what Brian Wilson's LSD laden thoughts sounded like, each song has Layers upon layers of textures and interweaving melodies, often they compliment or collide with one another, the vocals sometimes harmonious, sometimes screamed, and reminiscent of the aforementioned Beach Boy. A comparison they don't care for. In the early days of the group's music the songs were psychedelic landscapes, that transported the listener to the place where they had intended, in the early era of finger picked guitars, vocal loops, and ambient textures. After this period they introduced more electronic elements such as keyboards, and samples. this led to the more layered sound of the band. The earlier sounds of Animal Collective were at times a bit noisy, and inaccessible for the casual listener, the later albums were more immediate, the albums Centipede Hz, Painting With, and the most recent release Time Skiffs are still true to the layered textures of the past, the vocals are cleaner, and each song takes a short flight, compared to the longer compositions of the past. Avey Tare, and Panda Bear trade off vocal harmonies with point/and counterpoint delivery, swirling in a loop of exuberant joy on tracks like Golden Gal, FloriDada, Dragon Slayer. I've always felt transported when listening to their music. My first introduction to animal collective was their seventh album Strawberry Jam, it took me a few listens to get past the noise elements to find the layered melodies and surrealist lyrics that were all over the record, then the more psychedelic Merriweather Post Pavilion made me a believer. Deciding to jump into the back catalog was both good and bad. There are some gems for sure, and some weirdness, it's all part of the progression the earlier albums that I really enjoyed were Feels, and Sung Tongs. Sung Tongs was the band hitting it's creative stride, while Feels expanded on what Sung Tongs had set in motion.";
 
 aEl.textContent = "Give them a listen";
+button.textContent = "Play";
 
 infoH1El2.textContent = "The New Pornographers";
 pEl2.textContent =
