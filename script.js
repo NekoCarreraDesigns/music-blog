@@ -101,7 +101,7 @@ rotationElement.setAttribute(
   "style",
   "font-size: 24px; text-align: center; color: rgb(191, 223, 23);"
 );
-rotationElementDiv.setAttribute("style", "display: flex;");
+rotationElementDiv.setAttribute("style", "padding: 15px;");
 h2El.setAttribute("style", "text-align: center; color: rgb(123, 200, 200);");
 pEl.setAttribute("style", "font-size: 24px; font-family: arial;");
 infoH1El.setAttribute("style", "color: rgb(191, 223, 23);");
@@ -120,8 +120,37 @@ imgEl2.setAttribute(
   "https://www.mlive.com/resizer/QHNScbB9pkvTTRt8T9FYQIx2CmQ=/1280x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/image.mlive.com/home/mlive-media/width2048/img/grpress/entertainment_impact/photo/thenewpornographers-sl062509jpeg-1919c6d7e4068080.jpeg"
 );
 imgEl2.setAttribute("style", "width: 500px;");
+rotationImgElement.setAttribute(
+  "src",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Bl0Zj6K51vDwqjCGiwD9aswlqxtNC9LC8w&usqp=CAU"
+);
+rotationImgElement.setAttribute("style", "width: 500px;");
+rotationImgElementOne.setAttribute(
+  "src",
+  "https://media.pitchfork.com/photos/616f95da483dc8d5efe6a29c/2:1/w_2560%2Cc_limit/AC_Setup2Landscape1V1%2520copy.jpg"
+);
+rotationImgElementOne.setAttribute("style", "width: 500px");
+rotationImgElementTwo.setAttribute(
+  "src",
+  "https://www.rollingstone.com/wp-content/uploads/2018/06/broken-social-scene-album-review-07105a2e-20c7-4949-82bc-959bbb9eafc3.jpg"
+);
+rotationImgElementTwo.setAttribute("style", "width: 500px;");
+rotationImgElementThree.setAttribute(
+  "src",
+  "http://www.deathmetal.org/wp-content/uploads/pagan-altar-band-700x281.jpg"
+);
+rotationImgElementThree.setAttribute("style", "width: 500px;");
+rotationImgElementFour.setAttribute(
+  "src",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCyX5gp_JecnmZFjTxXOa9AFU3TMkGLmdfMPDmUymvEr65GZpAi76BPfDvmmE3qQ8DF4I&usqp=CAU"
+);
+rotationImgElementFour.setAttribute("style", "width: 500px;");
+rotationImgElementFive.setAttribute(
+  "src",
+  "https://riseaboverecords.com/wp-content/uploads/Church-of-Misery-2013.jpg"
+);
+rotationImgElementFive.setAttribute("style", "width: 500px;");
 // styling for the links
-
 aEl.setAttribute("href", "https://www.spotify.com");
 aEl.setAttribute("style", "color: rgb(200, 12, 200); font-size: 24px;");
 aEl2.setAttribute("href", "https://www.spotify.com");
