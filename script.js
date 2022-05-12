@@ -97,6 +97,11 @@ h1El.setAttribute(
   "text-align: center; text-decoration: underline; font-size: 40px; text-decoration-color: rgb(123, 255, 255); font-family: cursive; color: rgb(123, 200, 200)"
 );
 body.setAttribute("style", "background-color: rgb(150, 140, 200);");
+rotationElement.setAttribute(
+  "style",
+  "font-size: 24px; text-align: center; color: rgb(191, 223, 23);"
+);
+rotationElementDiv.setAttribute("style", "display: flex;");
 h2El.setAttribute("style", "text-align: center; color: rgb(123, 200, 200);");
 pEl.setAttribute("style", "font-size: 24px; font-family: arial;");
 infoH1El.setAttribute("style", "color: rgb(191, 223, 23);");
@@ -116,6 +121,7 @@ imgEl2.setAttribute(
 );
 imgEl2.setAttribute("style", "width: 500px;");
 // styling for the links
+
 aEl.setAttribute("href", "https://www.spotify.com");
 aEl.setAttribute("style", "color: rgb(200, 12, 200); font-size: 24px;");
 aEl2.setAttribute("href", "https://www.spotify.com");
