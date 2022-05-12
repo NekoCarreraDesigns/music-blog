@@ -38,7 +38,6 @@ pEl.textContent =
   "Animal Collective makes some weird music, that on so many levels twists and turns. they sound like what I'm sure was what Brian Wilson's LSD laden thoughts sounded like, each song has Layers upon layers of textures and interweaving melodies, often they compliment or collide with one another, the vocals sometimes harmonious, sometimes screamed, and reminiscent of the aforementioned Beach Boy. A comparison they don't care for. In the early days of the group's music the songs were psychedelic landscapes, that transported the listener to the place where they had intended, in the early era of finger picked guitars, vocal loops, and ambient textures. After this period they introduced more electronic elements such as keyboards, and samples. this led to the more layered sound of the band. The earlier sounds of Animal Collective were at times a bit noisy, and inaccessible for the casual listener, the later albums were more immediate, the albums Centipede Hz, Painting With, and the most recent release Time Skiffs are still true to the layered textures of the past, the vocals are cleaner, and each song takes a short flight, compared to the longer compositions of the past. Avey Tare, and Panda Bear trade off vocal harmonies with point/and counterpoint delivery, swirling in a loop of exuberant joy on tracks like Golden Gal, FloriDada, Dragon Slayer. I've always felt transported when listening to their music. My first introduction to animal collective was their seventh album Strawberry Jam, it took me a few listens to get past the noise elements to find the layered melodies and surrealist lyrics that were all over the record, then the more psychedelic Merriweather Post Pavilion made me a believer. Deciding to jump into the back catalog was both good and bad. There are some gems for sure, and some weirdness, it's all part of the progression the earlier albums that I really enjoyed were Feels, and Sung Tongs. Sung Tongs was the band hitting it's creative stride, while Feels expanded on what Sung Tongs had set in motion.";
 
 aEl.textContent = "Give them a listen";
-button.textContent = "Play";
 
 infoH1El2.textContent = "The New Pornographers";
 pEl2.textContent =
@@ -50,22 +49,48 @@ infoH1El3.textContent = "Modern Hip-Hop Is Hot Garbage";
 pElement3.textContent =
   "What the hell is this auto tuned mumbling noise!? Seriously, what the hell. I may sound like an old school elitist, when I say this. What passes for hip-hop these days is just so damn un-listenable, no one raps anymore they just mumble over beats, artists have no need for longevity because they bounce in and out, as soon as they get the bag, they are gone. A lot of gangster posturing, and rapping about jewelry, cars, and how many hos they do or don't get, hip-hop used to be introspective, and have a message, now it's just a shell of its former self. There are some good artists still out there as well as some o.g's who are still doing the damn thing. The good news is there is a skip button on the spotify player, that when one of these new songs come on, that shit gets skipped faster than an andretti going down the straightaway. These artists need to shut their dumb ass mouths, some of y'all should of stayed in school because you sound like some dumb asses. The fact that a few of them bought some fake ass jewelry just goes to show how dumb they are, which doesn't mean all them are. I love the boom-bap, clever rhymes, and artists with a sense of decorum. Some have kept this style alive. The Alchemist makes dope collaborations with Freddie Gibbs, Boldy James, and Curren$y. The Griselda crew also has some great artists Conway the Machine, Benny the Butcher, Westside Gunn. The one thing that gets tiring in their music sometimes is the constant ad-lib gun noises, which don't really add anything to the music, other than that. the production is great, and the rhymes are clever without trying to hard. Flatbush Zombies, and others from the New Era crew also get some of my attention. Joey Badass definitely gets me pumped up. slick rhymes and bravado that seems to be well earned, having gone through some difficulties which he plainly raps about on his records";
 
+rotationElement.textContent = "Current Listening Rotation";
+rotationH1Element.textContent = "Marissa Nadler";
+rotationH1ElementOne.textContent = "Animal Collective";
+rotationH1ElementTwo.textContent = "Broken Social Scene";
+rotationH1ElementThree.textContent = "Pagan Altar";
+rotationH1ElementFour.textContent = "An Autumn For Crippled Children";
+rotationH1ElementFive.textContent = "Church of Misery";
+
 // adding child elements to the parent node
 body.appendChild(h1El);
 body.appendChild(h2El);
+// first section
 body.appendChild(infoEl);
 infoEl.appendChild(infoH1El);
 infoEl.appendChild(imgEl);
 infoEl.appendChild(pEl);
 infoEl.appendChild(aEl);
+// second section
 body.appendChild(infoEl2);
 infoEl2.appendChild(infoH1El2);
 infoEl2.appendChild(imgEl2);
 infoEl2.appendChild(pEl2);
 infoEl2.appendChild(aEl2);
+// third section
 body.appendChild(infoEl3);
 infoEl3.appendChild(infoH1El3);
 infoEl3.appendChild(pElement3);
+body.appendChild(rotationElement);
+// fourth section
+rotationElement.appendChild(rotationElementDiv);
+rotationElementDiv.appendChild(rotationH1Element);
+rotationElementDiv.appendChild(rotationImgElement);
+rotationElementDiv.appendChild(rotationH1ElementOne);
+rotationElementDiv.appendChild(rotationImgElementOne);
+rotationElementDiv.appendChild(rotationH1ElementTwo);
+rotationElementDiv.appendChild(rotationImgElementTwo);
+rotationElementDiv.appendChild(rotationH1ElementThree);
+rotationElementDiv.appendChild(rotationImgElementThree);
+rotationElementDiv.appendChild(rotationH1ElementFour);
+rotationElementDiv.appendChild(rotationImgElementFour);
+rotationElementDiv.appendChild(rotationH1ElementFive);
+rotationElementDiv.appendChild(rotationImgElementFive);
 // setting the style for the elements on the page
 h1El.setAttribute(
   "style",
