@@ -27,6 +27,12 @@ let rotationImgElementTwo = document.createElement("img");
 let rotationImgElementThree = document.createElement("img");
 let rotationImgElementFour = document.createElement("img");
 let rotationImgElementFive = document.createElement("img");
+let rotationLinks = document.createElement("a");
+let rotationLinksOne = document.createElement("a");
+let rotationLinksTwo = document.createElement("a");
+let rotationLinksThree = document.createElement("a");
+let rotationLinksFour = document.createElement("a");
+let rotationLinksFive = document.createElement("a");
 let pEl = document.createElement("p");
 let pEl2 = document.createElement("p");
 let pElement3 = document.createElement("p");
@@ -56,6 +62,12 @@ rotationH1ElementTwo.textContent = "Broken Social Scene";
 rotationH1ElementThree.textContent = "Pagan Altar";
 rotationH1ElementFour.textContent = "An Autumn For Crippled Children";
 rotationH1ElementFive.textContent = "Church of Misery";
+rotationLinks.textContent = "Listen here";
+rotationLinksOne.textContent = "Listen here";
+rotationLinksTwo.textContent = "Listen here";
+rotationLinksThree.textContent = "Listen here";
+rotationLinksFour.textContent = "Listen here";
+rotationLinksFive.textContent = "Listen here";
 
 // adding child elements to the parent node
 body.appendChild(h1El);
@@ -81,16 +93,22 @@ body.appendChild(rotationElement);
 rotationElement.appendChild(rotationElementDiv);
 rotationElementDiv.appendChild(rotationH1Element);
 rotationElementDiv.appendChild(rotationImgElement);
+rotationElementDiv.appendChild(rotationLinks);
 rotationElementDiv.appendChild(rotationH1ElementOne);
 rotationElementDiv.appendChild(rotationImgElementOne);
+rotationElementDiv.appendChild(rotationLinksOne);
 rotationElementDiv.appendChild(rotationH1ElementTwo);
 rotationElementDiv.appendChild(rotationImgElementTwo);
+rotationElementDiv.appendChild(rotationLinksTwo);
 rotationElementDiv.appendChild(rotationH1ElementThree);
 rotationElementDiv.appendChild(rotationImgElementThree);
+rotationElementDiv.appendChild(rotationLinksThree);
 rotationElementDiv.appendChild(rotationH1ElementFour);
 rotationElementDiv.appendChild(rotationImgElementFour);
+rotationElementDiv.appendChild(rotationLinksFour);
 rotationElementDiv.appendChild(rotationH1ElementFive);
 rotationElementDiv.appendChild(rotationImgElementFive);
+rotationElementDiv.appendChild(rotationLinksFive);
 // setting the style for the elements on the page
 h1El.setAttribute(
   "style",
@@ -155,3 +173,24 @@ aEl.setAttribute("href", "https://www.spotify.com");
 aEl.setAttribute("style", "color: rgb(200, 12, 200); font-size: 24px;");
 aEl2.setAttribute("href", "https://www.spotify.com");
 aEl2.setAttribute("style", "color: rgb(200, 12, 200); font-size: 24px;");
+rotationLinks.setAttribute("style", "rgb(); font-size: 24px; display: block;");
+rotationLinksOne.setAttribute(
+  "style",
+  "rgb(); font-size: 24px; display: block;"
+);
+rotationLinksTwo.setAttribute(
+  "style",
+  "rgb(); font-size: 24px; display: block;"
+);
+rotationLinksThree.setAttribute(
+  "style",
+  "rgb(); font-size: 24px; display: block;"
+);
+rotationLinksFour.setAttribute(
+  "style",
+  "rgb(); font-size: 24px; display: block;"
+);
+rotationLinksFive.setAttribute(
+  "style",
+  "rgb(); font-size: 24px; display: block;"
+);
