@@ -174,23 +174,29 @@ aEl.setAttribute("style", "color: rgb(200, 12, 200); font-size: 24px;");
 aEl2.setAttribute("href", "https://www.spotify.com");
 aEl2.setAttribute("style", "color: rgb(200, 12, 200); font-size: 24px;");
 rotationLinks.setAttribute("style", "rgb(); font-size: 24px; display: block;");
+rotationLinks.setAttribute("href", "Https://www.spotify.com");
 rotationLinksOne.setAttribute(
   "style",
   "rgb(); font-size: 24px; display: block;"
 );
+rotationLinksOne.setAttribute("href", "https://www.spotify.com");
 rotationLinksTwo.setAttribute(
   "style",
   "rgb(); font-size: 24px; display: block;"
 );
+rotationLinksTwo.setAttribute("href", "https://www.spotify.com");
 rotationLinksThree.setAttribute(
   "style",
   "rgb(); font-size: 24px; display: block;"
 );
+rotationLinksThree.setAttribute("href", "https://www.spotify.com");
 rotationLinksFour.setAttribute(
   "style",
   "rgb(); font-size: 24px; display: block;"
 );
+rotationLinksFour.setAttribute("href", "https://www.spotify.com");
 rotationLinksFive.setAttribute(
   "style",
   "rgb(); font-size: 24px; display: block;"
 );
+rotationLinksFive.setAttribute("href", "https://www.spotify.com");
