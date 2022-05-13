@@ -33,6 +33,12 @@ let rotationLinksTwo = document.createElement("a");
 let rotationLinksThree = document.createElement("a");
 let rotationLinksFour = document.createElement("a");
 let rotationLinksFive = document.createElement("a");
+let rotationPElement = document.createElement("p");
+let rotationPElementOne = document.createElement("p");
+let rotationPElementTwo = document.createElement("p");
+let rotationPElementThree = document.createElement("p");
+let rotationPElementFour = document.createElement("p");
+let rotationPElementFive = document.createElement("p");
 let pEl = document.createElement("p");
 let pEl2 = document.createElement("p");
 let pElement3 = document.createElement("p");
@@ -57,11 +63,23 @@ pElement3.textContent =
 
 rotationElement.textContent = "Current Listening Rotation";
 rotationH1Element.textContent = "Marissa Nadler";
+rotationPElement.textContent =
+  "Folk singer who is willing to push her self musically, from folk ballads to doom metal adjacent drones.";
 rotationH1ElementOne.textContent = "Animal Collective";
+rotationPElementOne.textContent =
+  "Experimental, psychedelic, indie music for weirdos.";
 rotationH1ElementTwo.textContent = "Broken Social Scene";
+rotationPElementTwo.textContent =
+  "multi-layered rock band with melodies that will stick in your head.";
 rotationH1ElementThree.textContent = "Pagan Altar";
+rotationPElementThree.textContent =
+  "New wave of british heavy metal proto-doom, heavy riffs and mystical lyrics.";
 rotationH1ElementFour.textContent = "An Autumn For Crippled Children";
+rotationPElementFour.textContent =
+  "Blackgaze that's both beautiful and brutal.";
 rotationH1ElementFive.textContent = "Church of Misery";
+rotationPElementFive.textContent =
+  "Japanese doom metal about serial killers, and mass murderers, intense Sabbath worship.";
 rotationLinks.textContent = "Listen here";
 rotationLinksOne.textContent = "Listen here";
 rotationLinksTwo.textContent = "Listen here";
@@ -92,21 +110,27 @@ body.appendChild(rotationElement);
 // fourth section
 rotationElement.appendChild(rotationElementDiv);
 rotationElementDiv.appendChild(rotationH1Element);
+rotationElementDiv.appendChild(rotationPElement);
 rotationElementDiv.appendChild(rotationImgElement);
 rotationElementDiv.appendChild(rotationLinks);
 rotationElementDiv.appendChild(rotationH1ElementOne);
+rotationElementDiv.appendChild(rotationPElementOne);
 rotationElementDiv.appendChild(rotationImgElementOne);
 rotationElementDiv.appendChild(rotationLinksOne);
 rotationElementDiv.appendChild(rotationH1ElementTwo);
+rotationElementDiv.appendChild(rotationPElementTwo);
 rotationElementDiv.appendChild(rotationImgElementTwo);
 rotationElementDiv.appendChild(rotationLinksTwo);
 rotationElementDiv.appendChild(rotationH1ElementThree);
+rotationElementDiv.appendChild(rotationPElementThree);
 rotationElementDiv.appendChild(rotationImgElementThree);
 rotationElementDiv.appendChild(rotationLinksThree);
 rotationElementDiv.appendChild(rotationH1ElementFour);
+rotationElementDiv.appendChild(rotationPElementFour);
 rotationElementDiv.appendChild(rotationImgElementFour);
 rotationElementDiv.appendChild(rotationLinksFour);
 rotationElementDiv.appendChild(rotationH1ElementFive);
+rotationElementDiv.appendChild(rotationPElementFive);
 rotationElementDiv.appendChild(rotationImgElementFive);
 rotationElementDiv.appendChild(rotationLinksFive);
 // setting the style for the elements on the page
